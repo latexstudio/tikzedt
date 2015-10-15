@@ -5,7 +5,6 @@ using System.Text;
 using System.ComponentModel;
 using System.Collections.Specialized;
 using System.Collections;
-using System.Linq;
 
 namespace TikzEdt
 {

@@ -219,8 +219,8 @@ namespace TEApplicationLogicUnitTests
 
             Assert.AreNotEqual(LastReceivedJob, null);
             Assert.AreEqual(LastReceivedJob.DocumentID, 111);
-            Assert.IsTrue( Math.Abs( LastReceivedJob.BB.Width -3) < .5);
-            Assert.IsTrue( Math.Abs( LastReceivedJob.BB.Height - 3) < .5);
+            Assert.IsTrue( Math.Abs( LastReceivedJob.BB.Width  -3) < .5);
+            Assert.IsTrue( Math.Abs( LastReceivedJob.BB.Height -3) < .5);
 
         }
 

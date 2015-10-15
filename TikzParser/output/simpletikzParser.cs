@@ -284,7 +284,7 @@ public partial class simpletikzParser : Parser
         simpletikzParser.tikzpicture_return tikzpicture4 = default(simpletikzParser.tikzpicture_return);
 
 
-        object wildcard5_tree=null;
+        // object wildcard5_tree=null;
         RewriteRuleSubtreeStream stream_dontcare_preamble = new RewriteRuleSubtreeStream(adaptor,"rule dontcare_preamble");
         RewriteRuleSubtreeStream stream_tikzpicture = new RewriteRuleSubtreeStream(adaptor,"rule tikzpicture");
         RewriteRuleSubtreeStream stream_otherbegin = new RewriteRuleSubtreeStream(adaptor,"rule otherbegin");
@@ -584,7 +584,7 @@ public partial class simpletikzParser : Parser
         simpletikzParser.otherbegin_return otherbegin8 = default(simpletikzParser.otherbegin_return);
 
 
-        object EOF9_tree=null;
+        // object EOF9_tree=null;
         RewriteRuleTokenStream stream_EOF = new RewriteRuleTokenStream(adaptor,"token EOF");
         RewriteRuleSubtreeStream stream_dontcare_preamble = new RewriteRuleSubtreeStream(adaptor,"rule dontcare_preamble");
         RewriteRuleSubtreeStream stream_otherbegin = new RewriteRuleSubtreeStream(adaptor,"rule otherbegin");
@@ -826,7 +826,7 @@ public partial class simpletikzParser : Parser
 
         IToken TIKZEDT_CMD_COMMENT10 = null;
 
-        object TIKZEDT_CMD_COMMENT10_tree=null;
+        // object TIKZEDT_CMD_COMMENT10_tree=null;
         RewriteRuleTokenStream stream_TIKZEDT_CMD_COMMENT = new RewriteRuleTokenStream(adaptor,"token TIKZEDT_CMD_COMMENT");
 
         try 
@@ -1021,7 +1021,7 @@ public partial class simpletikzParser : Parser
 
         IToken set14 = null;
 
-        object set14_tree=null;
+        // object set14_tree=null;
 
         try 
     	{

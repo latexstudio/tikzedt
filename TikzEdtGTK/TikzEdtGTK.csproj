@@ -262,6 +262,7 @@
     <None Include="pangosharpglue-2.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="TikzEditGTK.config" />
     <None Include="zlib1.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
